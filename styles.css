@@ -1,0 +1,172 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/* gap: 5rem; */
+	margin: 0 10vw;
+	min-height: 100vh;
+}
+
+a, p, article {
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	color: #445964;
+}
+
+/* -------------------------------------------------------------------------- */
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 1rem;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 15vh;
+}
+
+header > div {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#home-logo {
+	width: 3rem;
+}
+
+#home-button {
+	justify-content: center;
+	gap: 1rem;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+#nav-buttons {
+	justify-content: space-evenly;
+	gap: 5vw;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	height: 85vh;
+}
+
+main > div {
+	display: flex;
+}
+
+#welcome-section {
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	min-height: 85vh;
+}
+
+.welcome-text-large {
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 84px;
+	width: 40rem;
+}
+
+#about-me-button {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+	color: white;
+	background-color: #263138;
+	border-radius: 20px;
+	width: 241px;
+	padding: 18px 35px;
+}
+
+#welcome-links {
+	display: flex;
+	gap: 1.5rem;
+}
+
+#image-section {
+	flex: 1;
+}
+
+#image-section > img {
+	width: 100%;
+	height: auto;
+	min-width: 20vw;
+}
+
+/* ========================================================================== */
+
+.about-heading {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+#about-message {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 2rem;	
+}
+
+.about-text-large-gray {
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 75px;
+}
+
+.about-text-large-black {
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 75px;
+	color: #263138;
+}
+
+#about-desc {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	width: 1032px;
+}
+
+#hard-skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 4rem;
+}
+
+#skills {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	max-width: 70rem;
+	gap: 2rem 0;
+}
+
+#skills > article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	width: 15rem;
+	height: 8rem;
+}
